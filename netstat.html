@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>netstat</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="menu.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+	<h1 align="center"><img src="logo2.png" alt="" height="35" width="35"/> netstat</h1>
+	<ul class="dropdownmenu">
+            <li><a href="page.html">Accueil</a></li><!--
+            --><li><a href="#">Commandes</a>
+                <ul>
+                    <li><a href="ipconfig.html">ipconfig </a></li>
+                    <li><a href="taskkill.html">taskkill</a></li>
+                    <li><a href="chkdsk.html">chkdsk </a></li>
+                    <li><a href="netstat.html">netstat </a></li>
+                    <li><a href="netsh.html">netsh </a></li>
+                    <li><a href="cleanmgr.html">cleanmgr </a></li>
+        </ul>        
+            </li>
+        
+                 <li><a href="mecontacter.html">Me contacter</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+        </ul>
+        <br>
+        <p><img src="attention.png" height="40" width="40">Les paramètres utilisés avec cette commande doivent être précédés d’un trait d’Union ( - ) et non d’une barre oblique ( / ).</p>
+        <p align="center">......................................................................................................</p>
+        <div class="taillediv" align="center"><li>La commande netstat affiche les ports ouverts sur un ordinateur.Netstat, pour «network statistics» , est une ligne de commande affichant des informations sur les connexions réseau, les tables de routage et un certain nombre de statistiques dont ceux des interfaces, sans oublier les connexions masquées, les membres multicast, et enfin, les messages netlink.<br><br></li></div><br>
+
+        <div class="taillediv"><li>Netstat est l'un des nombreux outils en ligne de commande permettant de vérifier le fonctionnement d'un réseau.Elle permet de vérifier si plusieurs éléments de TCP/IP fonctionnent et quelles sont les connexions établies. A partir de Windows XP SP2, une nouvelle option "-B" a été ajoutée. Elle permet de connaitre le fichier exécutable qui a ouvert une connexion. cette nouvelle possibilité fournit un moyen de découvrir si un fichier malveillant utilise votre ordinateur de manière incorrecte en accédant à Internet. Il y a de nombreuses façtrateur ons pour un adminissystème d'utiliser les options de Netstat, mais je vais vous donner des exemples qui seront utiles à la majorité des utilisateurs de PC.</li><br><p>Il vous faudra donc taper :</p></div>
+        <img src="netstat/1.png">
+        <h2>Paramètres de la commande</h2>
+        <div class="taillediv" align="center"><p>Utilisée sans aucun argument, la commande netstat affiche l'ensemble des connexions ouvertes par la machine. La commande netstat possède un certain nombre de paramètres optionnels, sa syntaxe est la suivante :</p></div><br>
+        <img src="netstat/parametres.png">
+
+
+        <p>il vous faudra taper netstat /? pour avoir plus de paramêtres pour connaître les paramètres ci dessus. </p>
+        <br>
+        <img src="netstat/netstatrecherche.png">
+        <br>
+        <h2>netstat -e</h2>
+        <li>Affiche des statistiques Ethernet,telles que le nombre d’octets et de paquets envoyés et reçus. Ce paramètre peut être combiné avec -s.</lis> 
+        <br>
+        <img src="netstat/e.png">
+        <br>
+        <h2>netstat -a</h2>
+        <br>
+        <li>Affiche toutes les connexions TCP actives et les ports TCP et UDP sur lesquels l’ordinateur est à l’écoute.</li>
+        <br>
+        <img src="netstat/a.png">
+        <br>
+        <img src="netstat/a2.png">
+        <br>
+        <h2>nestat -n</h2>
+        <li>  Affiche les connexions TCP actives, mais les adresses et les numéros de port sont exprimés numériquement et aucune tentative n’est faite pour déterminer les noms.</li><br>
+        <img src="netstat/n.png"><br>
+        <h2>netstat -r</h2><br>
+        <li>  Affiche le contenu de la table de routage IP. Cela équivaut à la commande route print. En voici une partie .</li><br>
+        <img src="netstat/r.png"><br>
+        <h2>netstat -s</h2>
+        <div class="taillediv"><p>Cette commande netstat affiche les statistiques détaillées par protocole.</p></div><br>
+        <img src="netstat/s.png">
+        <div align="center"><a href="https://twitter.com/sg_yacine" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+       
+
+</body>
+</html>

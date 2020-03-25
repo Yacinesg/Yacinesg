@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>taskkill</title>
+  <link rel="stylesheet" href="css.css">
+  <link rel="stylesheet" href="menu.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body>
+	<h1 align="center"><img src="logo2.png" alt="" height="35" width="35"/> TASKKILL : arrêter de programmes </h1>
+	<ul class="dropdownmenu">
+            <li><a href="page.html">Accueil</a></li><!--
+            --><li><a href="#">Commandes</a>
+                <ul>
+                    <li><a href="ipconfig.html">ipconfig </a></li>
+                    <li><a href="taskkill.html">taskkill </a></li>
+                    <li><a href="chkdsk.html">chkdsk</a></li>
+                    <li><a href="netstat.html">netstat </a></li>
+                    <li><a href="netsh.html">netsh </a></li>
+                    <li><a href="cleanmgr.html">cleanmgr </a></li>
+        </ul>        
+            </li>
+        
+                <li><a href="mecontacter.html">Me contacter</a></li>
+                <li><a href="apropos.html">A propos</a></li>
+        </ul>
+
+        
+<br>
+<img class="imgcentre" width='100' height='100'src="invite.jpg">
+<br>
+  <div class="taillediv" align="center"><p>Cette commande vous permettra met fin à une ou plusieurs tâches ou à un ou plusieurs processus. Les processus peuvent être terminés par ID de processus ou par nom d’image. Taskkill vous permet de fermet les programmes ou les fenêtres bloqués ou qui ont du mal à s'arrêter.</p></div>
+  
+  <img src="taskkill/1.png">
+  <br>
+  <div class="taillediv" align="center"><p>Pour avoir plus d'informations ou alors que vous ne savez plus comment s'appelle la commande qui suit,vous pouvez écrire <strong>taskkill /?</strong></p></div>
+  <br>
+ <div class="taillediv" align="center"> <p>Appuyez sur entrer</p></div> 
+     
+      <img src="taskkill/taskkillrecherche.png">
+      <br>
+      <h2>taskkill /IM</h2>
+      <div class="taillediv" align='center'><li>Pour tuer un processus Windows à partir de son nom, vous pouvez utiliser le paramètre /IM
+Ainsi, si vous désirez arrêter Mozilla Firefox, vous pouvez utiliser la commande :</li></div>
+      <br>
+      <img src="taskkill/taskkillim.png">
+      <br>
+      <h2> taskkill /V</h2>
+      <div class="taillediv" align='center'><li>Le paramètre /V permet de tuer un processus à partir de son PID. Le PID est un identifiant unique qui permet donc d’identifier un processus, ce qui est d’ailleurs assez pratique, si vous avez plusieurs processus avec le même nom, comme cela peut être le cas avec un navigateur internet ou svchost.exe.L’onglet Détails du gestionnaire de tâches vous donne les PID de chaque processus Windows à travers la colonne PID. Vous pouvez le trouver à partir de la commande suivante.La commande est <strong>taskkill /V suivit du PID.</strong></li></div>
+      <br>
+      <h2>tasklist</h2>
+      <div class="taillediv" align='center'><li>La commande<strong> tasklist </strong> permet de lister les processus avec une colonne PID :<br>Voici une partie de l'affichage mais il y en a encore d'autres qui s'affichent.</li></div><br>
+      <img src="taskkill/tasklist.png">
+      <div align="center"><a href="https://twitter.com/sg_yacine" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+</body>
+</html>

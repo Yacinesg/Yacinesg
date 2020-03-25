@@ -1,0 +1,44 @@
+html, body {
+ margin: 50px;
+ padding: 50px;
+ background-color: #A9A9A9;
+ background-attachment:fixed;
+
+ }
+body {
+ background-color: white; 
+ font-family: sans-serif; 
+ 
+ }
+ h1, h2,  {
+ 	font: inherit;
+    line-height: 1.4em;
+    color: #676767;
+}
+h2 {
+ margin-left: : 70px;
+    font-size: 1.5em;
+  }
+
+p, li{
+	color: #676767;
+	font-size: 1em;
+}
+
+.centre{
+	text-align: center;
+	vertical-align: center;
+	background-position: center;
+}
+
+
+.imgcentre{
+    position: center;
+    margin-left:400px;
+
+
+}
+strong{
+	font-size:1.5em 
+	color:black;
+}
